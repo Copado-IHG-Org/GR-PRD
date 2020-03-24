@@ -1,0 +1,7 @@
+public without sharing class PRODController{
+    
+
+    @AuraEnabled
+    public static String getPrefLang(){
+      return 'English';
+    }
